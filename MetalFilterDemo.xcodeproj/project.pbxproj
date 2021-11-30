@@ -13,6 +13,8 @@
 		336EC08827565BF70026DCEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336EC08627565BF70026DCEF /* Main.storyboard */; };
 		336EC08A27565C030026DCEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336EC08927565C030026DCEF /* Assets.xcassets */; };
 		336EC08D27565C030026DCEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336EC08B27565C030026DCEF /* LaunchScreen.storyboard */; };
+		336EC09627565F210026DCEF /* HslFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336EC09527565F210026DCEF /* HslFilter.swift */; };
+		336EC09927565FD50026DCEF /* HslMultiplierFilter.metal in Sources */ = {isa = PBXBuildFile; fileRef = 336EC09827565FD50026DCEF /* HslMultiplierFilter.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		336EC08927565C030026DCEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		336EC08C27565C030026DCEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		336EC08E27565C030026DCEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336EC09527565F210026DCEF /* HslFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HslFilter.swift; sourceTree = "<group>"; };
+		336EC09827565FD50026DCEF /* HslMultiplierFilter.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = HslMultiplierFilter.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				336EC08927565C030026DCEF /* Assets.xcassets */,
 				336EC08B27565C030026DCEF /* LaunchScreen.storyboard */,
 				336EC08E27565C030026DCEF /* Info.plist */,
+				336EC09527565F210026DCEF /* HslFilter.swift */,
+				336EC09827565FD50026DCEF /* HslMultiplierFilter.metal */,
 			);
 			path = MetalFilterDemo;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 				336EC08527565BF70026DCEF /* ViewController.swift in Sources */,
 				336EC08127565BF70026DCEF /* AppDelegate.swift in Sources */,
 				336EC08327565BF70026DCEF /* SceneDelegate.swift in Sources */,
+				336EC09627565F210026DCEF /* HslFilter.swift in Sources */,
+				336EC09927565FD50026DCEF /* HslMultiplierFilter.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 28S54ZGQ2Y;
 				INFOPLIST_FILE = MetalFilterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 28S54ZGQ2Y;
 				INFOPLIST_FILE = MetalFilterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
